@@ -3,7 +3,7 @@
 > **Speak. Show. Hear.**  
 > Real-time voice + vision AI assistant. Speak, show your camera, and hear natural responses — all under 2 seconds with zero local GPU.
 
----
+----
 
 ## Table of Contents
 
@@ -468,5 +468,6 @@ voxlens/
 ---
 
 *Built with FastAPI, NVIDIA NIM, Sarvam AI, Kokoro, LiteRT-LM.*
-#   V o x L e n s  
+#   V o x L e n s 
+ 
  
