@@ -1,0 +1,20 @@
+[project]
+name = "voxlens"
+version = "0.1.0"
+description = "Real-time voice + vision AI assistant. Speak, show your camera, and hear natural responses — all under 2 seconds with zero local GPU."
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "fastapi>=0.135.3",
+    "kokoro-onnx>=0.5.0",
+    "litert-lm>=0.14.0",
+    "misaki[en]>=0.9.4; sys_platform == 'darwin'",
+    "mlx-audio>=0.4.2; sys_platform == 'darwin'",
+    "num2words>=0.5.14; sys_platform == 'darwin'",
+    "numpy>=2.4.4",
+    "pillow>=11.0.0",
+    "soundfile>=0.13.1",
+    "uvicorn[standard]>=0.43.0",
+    "websockets>=16.0",
+    "python-dotenv>=1.0.0",
+    "huggingface-hub>=1.9.0",
+]
